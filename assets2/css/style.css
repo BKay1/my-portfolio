@@ -17,6 +17,7 @@ body {
 /*This section refers to the header which has multiple fonts, colours and also contains the pages navigation links*/
 
 .header {
+  width: 100vw;
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -81,3 +82,21 @@ a {
 
 .contactme {
 }
+
+/* Tablet viewport, the max-width 768px */
+
+@media screen and (max-width: 768px) {
+  .navcontainer {
+    flex-direction: column;
+  }
+}
+
+/* Mobile viewport, max-width 568px */
+
+@media screen and (max-width: 568px) {
+  .navcontainer {
+    flex-direction: column;
+  }
+}
+
+/* If both media queries above fail then assume desktop */
