@@ -62,11 +62,11 @@ a {
   text-decoration: none;
 }
 
+/* Main Section re about me and contact me*/
 .content {
   height: 100vh;
   margin-top: 5rem;
-  flex-wrap: wrap;
-  flex-grow: 1;
+  display: flexbox;
 }
 
 .aboutme {
@@ -118,7 +118,7 @@ a {
 
 .contactme {
   font-size: 2rem;
-  margin-top: 5rem;
+  margin-top: 6rem;
   margin-bottom: 2rem;
   margin-left: 15rem;
   padding: 1rem;
@@ -153,6 +153,13 @@ a {
 .card-info-container {
   padding: 20px;
   text-align: justify;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  color: dimgrey;
+}
+
+.card first-child {
+  width: 100;
 }
 
 /* Tablet viewport, the max-width 768px */
