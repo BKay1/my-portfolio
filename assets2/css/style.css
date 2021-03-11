@@ -160,9 +160,9 @@ a {
   color: dimgrey;
 }
 
-.card first-child {
-  width: 50vw;
-  height: 50vh;
+.card:first-child {
+  width: 25vw;
+  height: 25vh;
 }
 
 /* Tablet viewport, the max-width 768px */
