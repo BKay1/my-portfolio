@@ -95,33 +95,35 @@ a {
 }
 
 .hiya {
-  font-size: 9rem;
+  font-size: 8vw;
+
   font-family: monospace;
   padding: 1rem;
 }
 
 .beekay {
-  font-size: 3rem;
+  font-size: 2vw;
   margin-right: 6rem;
   margin-left: 6rem;
   font-family: monospace;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .paboutme {
-  font-size: 2rem;
+  font-size: 1.25vw;
   margin-right: 1rem;
   margin-left: 1rem;
+  margin-bottom: 2rem;
   font-family: monospace;
   padding: 2rem;
 }
 
 .contactme {
-  font-size: 2rem;
-  margin-top: 6rem;
+  font-size: 1.5vw;
+  margin-top: 8rem;
   margin-bottom: 2rem;
   margin-left: 15rem;
-  padding: 1rem;
+  padding: 3rem;
   font-family: monospace;
   color: #c7912c;
 }
@@ -134,7 +136,7 @@ a {
 .projects-title {
   padding: 1rem;
   text-align: center;
-  font-size: 6rem;
+  font-size: 6vw;
   color: rgb(30, 94, 15);
   font-family: monospace;
 }
@@ -159,13 +161,17 @@ a {
 }
 
 .card first-child {
-  width: 100%;
+  width: 50vw;
 }
 
 /* Tablet viewport, the max-width 768px */
 
 @media screen and (max-width: 768px) {
   .navcontainer {
+    flex-direction: column;
+  }
+
+  .content {
     flex-direction: column;
   }
   .projects-container {
@@ -177,6 +183,9 @@ a {
 
 @media screen and (max-width: 568px) {
   .navcontainer {
+    flex-direction: column;
+  }
+  .content {
     flex-direction: column;
   }
   .projects-container {
