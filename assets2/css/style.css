@@ -9,27 +9,53 @@ html {
 }
 
 body {
+  background-color: white;
+  position: relative;
+  display: block;
 }
 
+/*This section refers to the header which has multiple fonts, colours and also contains the pages navigation links*/
+
 .header {
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #ffffff;
+  color: #030e4e;
+  background-image: url("../images/oleg-laptev-7jQh3EiS8Bs-unsplash.jpg");
 }
 
 .header h1 {
+  display: inline-block;
+  font-size: 48px;
+  color: #2d3669;
 }
 
 .header nav {
+  padding-top: 23px;
+  margin-right: 20px;
+  float: right;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
 }
 
 .header nav ul {
+  list-style-type: none;
 }
 
 .header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
 }
 
 .navcontainer {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 a {
+  color: #9b968e;
+  text-decoration: none;
 }
 
 .content {
