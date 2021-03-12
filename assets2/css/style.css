@@ -100,16 +100,16 @@ a {
 
 .paboutme {
   font-size: 1.25vw;
-
   font-family: monospace;
-  padding: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 1rem;
 }
 
 .contactme {
   padding-top: 7rem;
   padding-bottom: 4rem;
   text-align: left;
-  margin-left: 15rem;
+  padding-left: 15rem;
   font-size: 2vw;
   color: #c7912c;
   font-family: monospace;
@@ -180,7 +180,9 @@ a {
   .content {
     flex-direction: column;
   }
-
+  .paboutme {
+    flex-direction: column;
+  }
   .contactme {
     flex-direction: column;
   }
