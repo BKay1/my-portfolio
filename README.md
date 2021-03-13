@@ -5,13 +5,21 @@ Task: To create a portfolio page using both html and css.
 Main actions:
 
 1.  Firstly drafted a wireframe;
-2.  Following BEM methodology structured the initial html with anticipated classes recognising that these may have to change subject to the final portfolio page design;
-3.  The design follows three sections: the header with navigation bar, the main section (a picture, about me and how to contact me) and My projects showcasing the projects completed thus far;
+2.  Following BEM methodology, structured the initial html with anticipated classes recognising that these may have to change subject to the final portfolio page design;
+3.  The portfolio comprises three sections: the header with navigation bar, the main section (a picture, about me and how to contact me) and my projects showcasing the projects completed thus far;
 4.  The navbar is fully clickable to the appropriate sections;
-5.  At each stage of building the portfolio e.g the navbar ensured that i git pushed onto Git Hub;
-6.  Added media queries for both tablet and mobile and ensured that each section was responsive;
-7.
+5.  All stages of the build can be viewed on GitHub which is linked below;
+6.  Added media queries and flex boxes for both tablet and mobile views and to ensure each section is responsive;
+7.  The projects section references a linked previous project to showcase current skills and additional space for future projects;
+8.  Lastly worked on the various css design elements to showcase basic css and design knowledge.
 
-screenshots
-links
+Please note screen shots of working website:
+
+Image 1 to show top part of portfolio page. URL: ![hwimage1](./assets/images/../../assets2/images/HWImage1.png)
+Image 2 to show bottom part of portfolio page. URL: ![hwimage1](./assets/images/../../assets2/images/HWImage3.png)
+
+Link to deployed application:
+file:///Users/badrakhatoon/coding_bootcamp/MyHomework/my-portfolio/index.html
+
+Link to GitHub repository:
 https://bkay1.github.io/my-portfolio/.
