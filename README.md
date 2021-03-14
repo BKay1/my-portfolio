@@ -20,7 +20,7 @@ Image 1 to show top part of portfolio page. URL: ![hwimage1](./assets/images/../
 Image 2 to show bottom part of portfolio page. URL: ![hwimage1](./assets/images/../../assets2/images/HWImage3.png)
 
 Link to deployed application:
-file:///Users/badrakhatoon/coding_bootcamp/MyHomework/my-portfolio/index.html
+https://bkay1.github.io/my-portfolio/
 
 Link to GitHub repository:
-https://bkay1.github.io/my-portfolio/.
+https://github.com/BKay1/my-portfolio
